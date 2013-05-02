@@ -1,0 +1,55 @@
+@CHARSET "ISO-8859-1";
+#login,#create_company {
+	margin: 15em auto 0 auto;
+	width: 400px;
+}
+
+.loginform h1 {
+	text-align: center;
+}
+
+#login label {
+	font-size: 22px;
+	padding-top: 7px;
+	width: 115px;
+	display: block;
+}
+
+.loginform {
+	border: 1px solid #E5E5E5;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 4px 18px #C8C8C8;
+	font-weight: normal;
+	margin-left: 8px;
+	padding: 26px 16px 0;
+}
+
+.loginform p {
+	clear: both;
+	float: none;
+	margin-bottom: 24px;
+	width: 380px;
+}
+
+.loginform p.submit {
+	text-align: center;
+	width: 360px;
+	padding: 10px 0 15px 0;
+}
+
+#login #user_pass,#login #user_login,#login #user_email {
+	float: left;
+	font-size: 24px;
+	margin-bottom: 16px;
+	margin-right: 6px;
+	margin-top: 2px;
+	padding: 3px;
+	width: 350px;
+}
+
+.loginform p.error {
+	font-size: 18px;
+	margin-bottom: 12px;
+	margin-top: 15px;
+	width: 360px;
+}
